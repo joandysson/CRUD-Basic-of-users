@@ -1,0 +1,51 @@
+
+* a {text-decoration: none;}
+
+.menu{padding: 10px 0 20px 0}
+  .menu ul {padding:0px; margin:0px; background-color:#EDEDED; list-style:none;}
+  .menu ul li { display: inline; }
+  .menu ul li a {padding: 2px 10px; display: inline-block;
+    /* visual do link */
+    background-color:#EDEDED; color: #333; text-decoration: none; border-bottom:3px solid #EDEDED;}
+  .menu ul li a:hover {
+    background-color:#D6D6D6; color: #6D6D6D; border-bottom:3px solid #EA0000;}
+
+.tabelaCrud {width: 100%; text-align: center; }
+    .tabalaCrud tr:nth-child(2n -1){background: #ccc;}
+    .tabalaCrud tr:first-child{background: #000; color: #fff; font-weight: bold; font-size: 20px;}
+    .tabalaCrud td{width: 20%; }
+      table{
+        width: 100%; margin-bottom : .5em; table-layout: fixed; text-align: center; padding: 1% 10%;
+      }
+
+.forme {padding: 0px 10%; font-family: sans-serif;};
+  .forme input{font-family: sans-serif;}
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+  }
+  input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+  }
+
+
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
